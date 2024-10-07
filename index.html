@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="mark">
+        <span class="span">Марка</span>
+        <select name="brand" id="brand-select">
+          <option value="BMW">BMW</option>
+          <option value="Lexus">Lexus</option>
+        </select>
+        <span class="span-body-type-select">Кузов</span>
+        <select
+          class="body-type-select"
+          name="body-type-select"
+          id="body-type-select"
+        >
+          <option value="Седан">Седан</option>
+          <option value="Универсал">Универсал</option>
+        </select>
+        <span class="span">Двигатель</span>
+        <select name="engine" id="engine-select">
+          <option value="1.6">1.6</option>
+          <option value="2.5">2.5</option>
+          <option value="5.0">5.0</option>
+        </select>
+        <span class="span">Трансмиссия</span>
+        <select name="transmission" id="transmission-select">
+          <option value="АТ">АТ</option>
+          <option value="МТ">МТ</option>
+        </select>
+      </div>
+      <div class="input">
+        <span class="span">Год</span>
+        <input class="input-year" type="text" />
+        <span class="span">Цвет</span>
+        <input class="input-color" type="text" />
+      </div>
+    </div>
+    <button class="btn-save">Сохранить</button>
+    <table class="table">
+      <tr class="header-table">
+        <th>Марка</th>
+        <th>Кузов</th>
+        <th>Год</th>
+        <th>Цвет</th>
+        <th>Трансмиссия</th>
+        <th>Двигатель</th>
+        <th class="last"></th>
+      </tr>
+    </table>
+    <div class="d"></div>
+  </body>
+</html>
